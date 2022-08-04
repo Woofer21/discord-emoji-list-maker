@@ -23,7 +23,7 @@ Grabs emotes from all servers its in and sends a webhook to the URL specified
 
 -  In the file called main.py you can edit the **optional** variables
     ```
-    WEBHOOK_NAME = "The name you want the webhook to hav"
+    WEBHOOK_NAME = "The name you want the webhook to have"
     WEBHOOK_AVATAR = "A link to the file which should be the bots avatar"
     ```
 
