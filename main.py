@@ -9,12 +9,13 @@ load_dotenv()
 
 client = discord.Client()
 TOKEN = os.getenv("TOKEN")
-WEBHOOK = os.getenv("WEBHOOK")
+WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 WEBHOOK_NAME = ""
+WEBHOOK_AVATAR = ""
 
 @client.event
 async def on_ready():
-    print('We have logged in as {0.user}'.format(client))
+    print(f'We have logged in as {client.user}')
 
 @client.event
 async def on_message(message):
@@ -60,11 +61,12 @@ async def on_message(message):
             print(b)
             data = {
                 "username": WEBHOOK_NAME,
+                "avatar_url": WEBHOOK_AVATAR,
                 "content": string[indx]
             }
 
 
-            res = requests.post(WEBHOOK, json=data)
+            res = requests.post(WEBHOOK_URL, json=data)
             time.sleep(5)
 
         try:
