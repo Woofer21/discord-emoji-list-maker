@@ -10,6 +10,7 @@ load_dotenv()
 client = discord.Client()
 TOKEN = os.getenv("TOKEN")
 WEBHOOK = os.getenv("WEBHOOK")
+WEBHOOK_NAME = ""
 
 @client.event
 async def on_ready():
@@ -58,7 +59,7 @@ async def on_message(message):
         for indx, b in enumerate(string):
             print(b)
             data = {
-                "username": "Calsmojis Emote List",
+                "username": WEBHOOK_NAME,
                 "content": string[indx]
             }
 
