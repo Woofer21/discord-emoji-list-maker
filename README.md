@@ -72,6 +72,6 @@ Full Command usage
 - Example 1: `$grab-emotes -w -g`
 - Example 2: `$grab-emotes -w -l`
 
-Thats it!
+Thats all!
 
 *If you have any questions feel free to DM me on discord: `Woofer21#0220`*
