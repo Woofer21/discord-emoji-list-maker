@@ -1,5 +1,3 @@
-from pydoc import describe
-from turtle import color
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
