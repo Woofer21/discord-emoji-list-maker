@@ -3,7 +3,7 @@
 Grabs emotes from the guild the command was ran in and sends it to a channel or predefined webhook.
 
 ## Requirements
-- Discord Bot
+- A Discord Bot
     - Send Messages Permission
     - Send Embed Permission
 - Webhook
