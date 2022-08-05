@@ -1,4 +1,4 @@
-# Discord Emoji List Maker
+# Discord Emoji List Maker TEST UPDATE
 
 Grabs emotes from the guild the command was ran in and sends it to a channel or predefined webhook.
 
