@@ -14,7 +14,7 @@ Grabs emotes from the guild the command was ran in and sends it to a channel or 
 
 
 ## How to Use
-- In the folder you will be running the bot from, create a file named .env
+- In the folder you will be running the bot from, create a file named `.env`
     - Format it the following way, replacing the things in <> with what it should be
     ```
     TOKEN=<BOT TOKEN>
