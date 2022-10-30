@@ -7,8 +7,11 @@ import time
 
 load_dotenv()
 
-client = discord.Client()
-client = commands.Bot(command_prefix="$")
+intents = discord.Intents.default()
+intents.message_content = True
+
+client = discord.Client(intents=intents)
+client = commands.Bot(command_prefix="$", intents=intents)
 TOKEN = os.getenv("TOKEN")
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 WEBHOOK_NAME = ""
