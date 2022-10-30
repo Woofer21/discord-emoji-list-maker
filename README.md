@@ -9,7 +9,7 @@ Grabs emotes from the guild the command was ran in and sends it to a channel or 
 - Webhook
 - Python (https://www.python.org/downloads/)
     - Discord Module (https://pypi.org/project/discord.py/)
-    - Dotenv Module (https://pypi.org/project/dotenv/)
+    - Python-Dotenv Module (https://pypi.org/project/python-dotenv/)
     - Requests Module (https://pypi.org/project/requests/)
 
 
